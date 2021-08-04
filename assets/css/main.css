@@ -736,7 +736,7 @@ ul {
 	}
 
 		ul.alt li {
-			border-top: solid 1px #ffffff;
+			border-top: solid 5px #ffffff;
 			padding: 0.5em 0;
 		}
 
@@ -1520,7 +1520,7 @@ button {
 	max-width: 100%;
 	z-index: 3;
 }
-
+	/* Adjusts the look of the cards--background-color in line 1537 changes the color of the cards, for example */
 	#main article {
 		-moz-transform: translateY(0.25rem);
 		-webkit-transform: translateY(0.25rem);
@@ -1534,7 +1534,7 @@ button {
 		position: relative;
 		width: 40rem;
 		max-width: 100%;
-		background-color: rgba(27, 31, 34, 0.85);
+		background-color: rgba(27, 31, 34, 0.35);
 		border-radius: 4px;
 		opacity: 0;
 	}
@@ -1578,11 +1578,11 @@ button {
 				background-size: 20px 20px;
 				background-repeat: no-repeat;
 			}
-
+			/* Change the color of the x in the cards when you hover over it, presumably to close */
 			#main article .close:hover:before {
-				background-color: rgba(255, 255, 65, 0.75);
+				background-color: rgba(255, 255, 255, 0.075);
 			}
-
+			/* Change the color of the x in the cards when you pass near it while active */
 			#main article .close:active:before {
 				background-color: rgba(255, 255, 255, 0.175);
 			}
