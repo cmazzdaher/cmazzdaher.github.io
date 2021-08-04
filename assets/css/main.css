@@ -1322,7 +1322,7 @@ button {
 			font-size: 0.8rem;
 			line-height: 2;
 		}
-
+	/* Changes the look of the navigation boxes */
 	#header nav ul {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -1331,7 +1331,7 @@ button {
 		margin-bottom: 0;
 		list-style: none;
 		padding-left: 0;
-		border: solid 5px #ff00ff;
+		border: solid 0px #ffffff;
 		border-radius: 4px;
 	}
 
@@ -1348,7 +1348,7 @@ button {
 				display: block;
 				min-width: 7.5rem;
 				height: 2.75rem;
-				line-height: 2.75rem;
+				line-height: 0.75rem;
 				padding: 0 1.25rem 0 1.45rem;
 				text-transform: uppercase;
 				letter-spacing: 0.2rem;
