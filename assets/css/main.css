@@ -736,7 +736,7 @@ ul {
 	}
 
 		ul.alt li {
-			border-top: solid 5px #ff00ff;
+			border-top: solid 1px #ffffff;
 			padding: 0.5em 0;
 		}
 
@@ -1331,7 +1331,7 @@ button {
 		margin-bottom: 0;
 		list-style: none;
 		padding-left: 0;
-		border: solid 1px #ffffff;
+		border: solid 5px #ff00ff;
 		border-radius: 4px;
 	}
 
