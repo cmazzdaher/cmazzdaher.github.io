@@ -1259,7 +1259,7 @@ button {
 		margin-top: 3.5rem;
 	}
 
-		#header > *:before {
+		/* #header > *:before {
 			content: '';
 			display: block;
 			position: absolute;
@@ -1268,7 +1268,7 @@ button {
 			width: 1px;
 			height: calc(3.5rem + 1px);
 			background: #ffffff;
-		}
+		} */
 
 	#header > :first-child {
 		margin-top: 0;
@@ -1352,7 +1352,7 @@ button {
 				display: block;
 				min-width: 7.5rem;
 				height: 2.75rem;
-				line-height: 2.75rem;
+				line-height: 1.75rem;
 				padding: 0 1.25rem 0 1.45rem;
 				text-transform: uppercase;
 				letter-spacing: 0.2rem;
@@ -1485,7 +1485,7 @@ button {
 						height: 3rem;
 						line-height: 3rem;
 						min-width: 0;
-						width: 50%;
+						width: 100%;
 					}
 
 			#header nav.use-middle:after {
