@@ -1290,14 +1290,15 @@ button {
 			font-size: 2rem;
 		}
 
+	/* Edit the upper and lower lines around the main text on the home page */
 	#header .content {
 		border-style: solid;
 		border-color: #ffffff;
-		border-top-width: 1px;
-		border-bottom-width: 1px;
+		border-top-width: 0px;
+		border-bottom-width: 0px;
 		max-width: 100%;
 	}
-
+		/* Edit the size and margins of the main content area (where the name, pic, icons are listed) */
 		#header .content .inner {
 			-moz-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
 			-webkit-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
@@ -1307,8 +1308,8 @@ button {
 			-webkit-transition-delay: 0.25s;
 			-ms-transition-delay: 0.25s;
 			transition-delay: 0.25s;
-			padding: 1rem 1rem;
-			max-height: 30rem;
+			padding: 2rem 1rem;
+			max-height: 35rem;
 			overflow: hidden;
 		}
 
