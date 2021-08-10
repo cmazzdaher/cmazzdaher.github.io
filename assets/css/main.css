@@ -1256,7 +1256,7 @@ button {
 		-ms-transition: opacity 0.325s ease-in-out;
 		transition: opacity 0.325s ease-in-out;
 		position: relative;
-		margin-top: 1.5rem;
+		margin-top: 0rem;
 	}
 
 		/* #header > *:before {
@@ -1307,8 +1307,8 @@ button {
 			-webkit-transition-delay: 0.25s;
 			-ms-transition-delay: 0.25s;
 			transition-delay: 0.25s;
-			padding: 2rem 1rem;
-			max-height: 35rem;
+			padding: 1rem 1rem;
+			max-height: 30rem;
 			overflow: hidden;
 		}
 
@@ -1340,7 +1340,7 @@ button {
 		/* That way all the lines look like they're in in between the nav items */
 		#header nav ul li {
 			padding-left: 0;
-			border-left: solid 0.5px #ffffff;
+			border-left: solid 0px #ffffff;
 		}
 
 			#header nav ul li:first-child {
